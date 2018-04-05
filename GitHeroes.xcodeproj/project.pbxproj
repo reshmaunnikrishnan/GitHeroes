@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89E598D6994748E8513B30D9 /* Pods_GitHeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E64890420A65D0560A5A48 /* Pods_GitHeroesTests.framework */; };
 		F762B8EE205C7CB8002A0CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B8ED205C7CB8002A0CEB /* AppDelegate.swift */; };
 		F762B8F0205C7CB8002A0CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B8EF205C7CB8002A0CEB /* ViewController.swift */; };
 		F762B8F3205C7CB8002A0CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F762B8F1205C7CB8002A0CEB /* Main.storyboard */; };
 		F762B8F5205C7CB8002A0CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762B8F4205C7CB8002A0CEB /* Assets.xcassets */; };
 		F762B8F8205C7CB8002A0CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F762B8F6205C7CB8002A0CEB /* LaunchScreen.storyboard */; };
 		F762B903205C7CB8002A0CEB /* GitHeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B902205C7CB8002A0CEB /* GitHeroesTests.swift */; };
+		F762B90E205C7ECC002A0CEB /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B90D205C7ECC002A0CEB /* Login.swift */; };
+		F762B94D205FD582002A0CEB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B94C205FD582002A0CEB /* APIClient.swift */; };
+		F762B94F2066AF23002A0CEB /* IssueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B94E2066AF23002A0CEB /* IssueListViewController.swift */; };
+		F762B9532067003A002A0CEB /* UserListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B9522067003A002A0CEB /* UserListProvider.swift */; };
+		F762B956206700CF002A0CEB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762B955206700CF002A0CEB /* User.swift */; };
+		FDA56887EF83E499B81DC4AC /* Pods_GitHeroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4918366ED64967EA673B65D /* Pods_GitHeroes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50E64890420A65D0560A5A48 /* Pods_GitHeroesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHeroesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12F9B3A52394F173903E0D9 /* Pods-GitHeroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHeroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHeroes/Pods-GitHeroes.debug.xcconfig"; sourceTree = "<group>"; };
+		B2663BE53E168FD882E41D83 /* Pods-GitHeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHeroesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHeroesTests/Pods-GitHeroesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2EE9DA0B55AA5C37170C2A2 /* Pods-GitHeroesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHeroesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHeroesTests/Pods-GitHeroesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4918366ED64967EA673B65D /* Pods_GitHeroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHeroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE55737CDFB698B98D4FF2C /* Pods-GitHeroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHeroes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHeroes/Pods-GitHeroes.release.xcconfig"; sourceTree = "<group>"; };
 		F762B8EA205C7CB8002A0CEB /* GitHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762B8ED205C7CB8002A0CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F762B8EF205C7CB8002A0CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +49,11 @@
 		F762B8FE205C7CB8002A0CEB /* GitHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762B902205C7CB8002A0CEB /* GitHeroesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHeroesTests.swift; sourceTree = "<group>"; };
 		F762B904205C7CB8002A0CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F762B90D205C7ECC002A0CEB /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F762B94C205FD582002A0CEB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F762B94E2066AF23002A0CEB /* IssueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueListViewController.swift; sourceTree = "<group>"; };
+		F762B9522067003A002A0CEB /* UserListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProvider.swift; sourceTree = "<group>"; };
+		F762B955206700CF002A0CEB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA56887EF83E499B81DC4AC /* Pods_GitHeroes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E598D6994748E8513B30D9 /* Pods_GitHeroesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2571E766C2FE1FA09309F2F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A12F9B3A52394F173903E0D9 /* Pods-GitHeroes.debug.xcconfig */,
+				ECE55737CDFB698B98D4FF2C /* Pods-GitHeroes.release.xcconfig */,
+				B2EE9DA0B55AA5C37170C2A2 /* Pods-GitHeroesTests.debug.xcconfig */,
+				B2663BE53E168FD882E41D83 /* Pods-GitHeroesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BDA4923993E367749D9E99B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4918366ED64967EA673B65D /* Pods_GitHeroes.framework */,
+				50E64890420A65D0560A5A48 /* Pods_GitHeroesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F762B8E1205C7CB8002A0CEB = {
 			isa = PBXGroup;
 			children = (
 				F762B8EC205C7CB8002A0CEB /* GitHeroes */,
 				F762B901205C7CB8002A0CEB /* GitHeroesTests */,
 				F762B8EB205C7CB8002A0CEB /* Products */,
+				2571E766C2FE1FA09309F2F3 /* Pods */,
+				2BDA4923993E367749D9E99B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +121,11 @@
 			children = (
 				F762B8ED205C7CB8002A0CEB /* AppDelegate.swift */,
 				F762B8EF205C7CB8002A0CEB /* ViewController.swift */,
+				F762B90D205C7ECC002A0CEB /* Login.swift */,
+				F762B954206700C0002A0CEB /* Model */,
+				F762B9512066FF9E002A0CEB /* UserList */,
+				F762B9502066FF17002A0CEB /* Service */,
+				F762B94E2066AF23002A0CEB /* IssueListViewController.swift */,
 				F762B8F1205C7CB8002A0CEB /* Main.storyboard */,
 				F762B8F4205C7CB8002A0CEB /* Assets.xcassets */,
 				F762B8F6205C7CB8002A0CEB /* LaunchScreen.storyboard */,
@@ -96,6 +143,30 @@
 			path = GitHeroesTests;
 			sourceTree = "<group>";
 		};
+		F762B9502066FF17002A0CEB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F762B94C205FD582002A0CEB /* APIClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F762B9512066FF9E002A0CEB /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				F762B9522067003A002A0CEB /* UserListProvider.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		F762B954206700C0002A0CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F762B955206700CF002A0CEB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F762B907205C7CB8002A0CEB /* Build configuration list for PBXNativeTarget "GitHeroes" */;
 			buildPhases = (
+				955B516F9293E36C3367DA05 /* [CP] Check Pods Manifest.lock */,
 				F762B8E6205C7CB8002A0CEB /* Sources */,
 				F762B8E7205C7CB8002A0CEB /* Frameworks */,
 				F762B8E8205C7CB8002A0CEB /* Resources */,
+				F10BD54B9B56612D57E40A35 /* [CP] Embed Pods Frameworks */,
+				166876DE833D4724B4CE5705 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F762B90A205C7CB8002A0CEB /* Build configuration list for PBXNativeTarget "GitHeroesTests" */;
 			buildPhases = (
+				AF51B1633BE7A74B0697D3C4 /* [CP] Check Pods Manifest.lock */,
 				F762B8FA205C7CB8002A0CEB /* Sources */,
 				F762B8FB205C7CB8002A0CEB /* Frameworks */,
 				F762B8FC205C7CB8002A0CEB /* Resources */,
+				1B13DC5B7F5316F60F3970C6 /* [CP] Embed Pods Frameworks */,
+				C0E34A19FB7BACC5BE6B3ECD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +271,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		166876DE833D4724B4CE5705 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHeroes/Pods-GitHeroes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B13DC5B7F5316F60F3970C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHeroesTests/Pods-GitHeroesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955B516F9293E36C3367DA05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHeroes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF51B1633BE7A74B0697D3C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHeroesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E34A19FB7BACC5BE6B3ECD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHeroesTests/Pods-GitHeroesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10BD54B9B56612D57E40A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GitHeroes/Pods-GitHeroes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JASON/JASON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JASON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHeroes/Pods-GitHeroes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F762B8E6205C7CB8002A0CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F762B90E205C7ECC002A0CEB /* Login.swift in Sources */,
 				F762B8F0205C7CB8002A0CEB /* ViewController.swift in Sources */,
+				F762B9532067003A002A0CEB /* UserListProvider.swift in Sources */,
+				F762B94F2066AF23002A0CEB /* IssueListViewController.swift in Sources */,
 				F762B8EE205C7CB8002A0CEB /* AppDelegate.swift in Sources */,
+				F762B94D205FD582002A0CEB /* APIClient.swift in Sources */,
+				F762B956206700CF002A0CEB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +545,7 @@
 		};
 		F762B908205C7CB8002A0CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12F9B3A52394F173903E0D9 /* Pods-GitHeroes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +561,7 @@
 		};
 		F762B909205C7CB8002A0CEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE55737CDFB698B98D4FF2C /* Pods-GitHeroes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +577,7 @@
 		};
 		F762B90B205C7CB8002A0CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EE9DA0B55AA5C37170C2A2 /* Pods-GitHeroesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +595,7 @@
 		};
 		F762B90C205C7CB8002A0CEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2663BE53E168FD882E41D83 /* Pods-GitHeroesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
